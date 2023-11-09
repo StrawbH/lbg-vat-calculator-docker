@@ -1,7 +1,7 @@
 pipeline{
  environment {
- registry = "strawbh1/vatcal"
-        registryCredentials = "docker_hub_id"
+ registry = "username/vatcal"
+        registryCredentials = "dockerhub_id"
         dockerImage = ""
     }
     agent any
@@ -33,4 +33,4 @@ pipeline{
                 }
             }
         }
-           
+}
